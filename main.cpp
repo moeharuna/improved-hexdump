@@ -24,7 +24,7 @@
             char buf[16];
             unsigned unbuf[16];
 
-            for( nread = 0; nread < 16 && file.get(buf[nread]); nread++ );  //try static_cast, dynamic_cast and reinterpret_cast
+            for( nread = 0; nread < 16 && file.get(buf[nread]); nread++ );
             if( nread == 0 ) break;
 
 
